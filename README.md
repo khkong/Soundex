@@ -1,5 +1,5 @@
 # Soundex
-Soundex of Latin and Cyrillic characters is available.
+You can use soundex of Latin and Cyrillic characters.
 
 ## Overview
 Soundex is one way to determine the phonetic similarity of a string.
