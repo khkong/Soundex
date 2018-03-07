@@ -1,1 +1,34 @@
 # Soundex
+Soundex of Latin and Cyrillic characters is available.
+
+## Overview
+Soundex is one way to determine the phonetic similarity of a string.
+
+This repository supports Soundex for Latin or Cyrillic characters.
+
+##Example
+The following shows how it is used.
+
+```
+    //example
+    Soundex* soundex = new Soundex();
+    std::cout << "Россия -> ";
+    string encode1 = soundex->encode("Россия", Global::LOCALE_TYPE::RU_RU);
+    cout<<encode1<<endl;
+    
+
+    std::cout << "Russia -> ";
+    string encode2 = soundex->encode(L"Russia", Global::LOCALE_TYPE::EN_US);
+    cout<<encode2<<endl;
+    delete soundex;
+```
+
+The output is shown below.
+
+```
+Россия -> Р2
+Russia -> R2
+```
+
+## Reference
+1. https://en.wikipedia.org/wiki/Soundex
