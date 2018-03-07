@@ -7,7 +7,7 @@ Soundex is one way to determine the phonological similarity of two strings.
 This repository supports soundex for Latin or Cyrillic characters.
 
 ## Example
-The following shows how it is used.
+The following shows how to use it.
 
 ```
     //example
