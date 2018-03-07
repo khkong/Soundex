@@ -2,7 +2,7 @@
 You can use soundex of Latin and Cyrillic characters.
 
 ## Overview
-Soundex is one way to determine the phonetic similarity of a string.
+Soundex is one way to determine the phonological similarity of two strings.
 
 This repository supports soundex for Latin or Cyrillic characters.
 
@@ -26,8 +26,8 @@ The following shows how it is used.
 The output is shown below.
 
 ```
-Россия -> Р2
-Russia -> R2
+    Россия -> Р2
+    Russia -> R2
 ```
 
 ## Reference
