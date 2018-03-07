@@ -6,7 +6,7 @@ Soundex is one way to determine the phonetic similarity of a string.
 
 This repository supports Soundex for Latin or Cyrillic characters.
 
-##Example
+## Example
 The following shows how it is used.
 
 ```
