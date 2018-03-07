@@ -4,7 +4,7 @@ Soundex of Latin and Cyrillic characters is available.
 ## Overview
 Soundex is one way to determine the phonetic similarity of a string.
 
-This repository supports Soundex for Latin or Cyrillic characters.
+This repository supports soundex for Latin or Cyrillic characters.
 
 ## Example
 The following shows how it is used.
