@@ -11,16 +11,13 @@ The following shows how to use it.
 
 ```
     //example
-    Soundex* soundex = new Soundex();
     std::cout << "Россия -> ";
-    string encode1 = soundex->encode("Россия", Global::LOCALE_TYPE::RU_RU);
+    string encode1 = Soundex::getInstance()->encode("Россия", Global::LOCALE_TYPE::RU_RU);
     cout<<encode1<<endl;
-    
 
     std::cout << "Russia -> ";
-    string encode2 = soundex->encode(L"Russia", Global::LOCALE_TYPE::EN_US);
+    string encode2 = Soundex::getInstance()->encode(L"Russia", Global::LOCALE_TYPE::EN_US);
     cout<<encode2<<endl;
-    delete soundex;
 ```
 
 The output is shown below.
