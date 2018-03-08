@@ -17,12 +17,17 @@ using namespace std;
 
 class Soundex{
 private :
+    static Soundex* mInstance;
     SoundexTableFactory* mSoundexTableFactory;
     ISoundexTable* mSoundexTable;
 
 public:
     Soundex();
     ~Soundex();
+    static Soundex* getInstance(){
+        return mInstance;
+    }
+
     /**
      * Encode the provided string.
      * The provided string is turned into a four character code.

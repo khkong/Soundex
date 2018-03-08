@@ -5,6 +5,8 @@
 #include <codecvt>
 #include "Soundex.h"
 
+Soundex* Soundex::mInstance = new Soundex();
+
 Soundex::Soundex() {
     mSoundexTableFactory = new SoundexTableFactory();
 }

@@ -21,8 +21,6 @@ public :
     ~Latin();
 
     static ISoundexTable* getInstance(){
-        if(mInstance==nullptr)
-            mInstance = new Latin();
         return mInstance;
     }
     const bool isExistVowel(const wchar_t wc) override;

@@ -19,8 +19,6 @@ public :
     ~Cyrillic();
 
     static ISoundexTable* getInstance(){
-        if(mInstance==nullptr)
-            mInstance = new Cyrillic();
         return mInstance;
     }
     const bool isExistVowel(const wchar_t wc) override;
